@@ -1,0 +1,31 @@
+<head>
+  {% if page.title %}
+    <title>{{ page.title }} | Ketobasix </title>
+  {% else %}
+    <title>Test Page: Don't Panic</title>
+  {% endif %}
+  {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+  {% else %}
+    <meta name="description" content="Easy, Simple, Ketogenic.">
+  {% endif %}
+
+ {% if page.title %}
+    <meta property="og:title" content="{{ page.title }} | KetoBasix"/>
+  {% else %}
+    <meta property="og:title" content="KetoBasix: Less is More"/>
+  {% endif %}
+  {% if page.description %}
+    <meta property="og:description" content="{{ page.description }}"/>
+  {% else %}
+    <meta property="og:description" content="Low Carb Ketogenic Structure."/>
+  {% endif %}
+
+  <link href="/favicon.png" rel="icon">
+  <link href="/apple-touch-icon.png" rel="apple-touch-icon">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300i|Raleway:100" rel="stylesheet">
+  <link rel="stylesheet" href="/fonts/fontawesome-free-5.4.1-web/css/all.css">
+  <link rel="stylesheet" href="/css/main.css">
+</head>
